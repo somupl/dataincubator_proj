@@ -10,7 +10,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.render('pages/capstone_project');
+  response.render('pages/Voice_of_Emotions');
 });
 
 app.listen(app.get('port'), function() {
